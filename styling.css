@@ -1,0 +1,132 @@
+/*toyworld project using html & css*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+div{
+    height: 330px;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-image: url("tw.png");
+    background-size: cover;
+}
+/*navbar*/
+.navbar1{
+    height: 35px;
+    width: 100%;
+    font-size: 19px;
+    background-color: #04245c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    height: 30px;
+    width: 75%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first a:hover{
+    font-size: 20px;
+    border-bottom: 1px solid silver;
+}
+.second{
+    height: 35px;
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second input:hover{
+    border: 1px solid silver;
+}
+.second i:hover{
+    border: 1px solid silver;
+}
+input{
+    height: 22px;
+}
+.cart{
+    height: 35px;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart i:hover{
+    border: 1px solid silver;
+}
+/*hero section*/
+h2{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.box{
+    height: 725px;
+    width: 100%;
+    background-color: #fff75e;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.b1{/*toys*/
+    height: 350px;
+    width: 440px;
+    background-color: #062a3c;
+    text-align: center;
+    padding-top: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.b1 a:hover{
+    border-bottom: 2px solid silver;
+    font-size: 20px;
+}
+.teddy{/*for images*/
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    margin-left: 25px;
+}
+.teddy:hover{
+    border: 1px solid silver;
+}
+/*End-footer*/
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(33, 33, 102);
+}
+.contact{
+    height: 30px;
+}
+.address{
+    height: 30px;
+}
+.online{
+    height: 30px;
+}
+.foot-top{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-bottom{
+    height: 225px;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+}

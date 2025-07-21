@@ -1,0 +1,68 @@
+/*Styling of each toy(soft,cars,instruments,etc) menu*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+div{
+    height: 330px;
+    width: 100%;
+}
+
+/*logo of car toys site*/
+.logo1{
+    background-size: cover;
+    background-color: pink;
+}
+/*box for each toy*/
+.hero{
+    height: 320px;
+    width: 100%;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.items{
+    height: 280px;
+    width: 220px;
+    background-color: #b0c4b1;
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 23px;
+    margin: 0.85%;
+}
+.menu{
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(38, 145, 232);
+}
+.menu a{
+    color: white;
+    height: 10px;
+    text-decoration: none;
+}
+/*toy image*/
+.soft{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.soft:hover{
+    border: 1px solid brown;
+}
+/*footer styling*/
+footer{
+    height:80px;
+    width: 100%;
+    padding-top: 15px;
+    background-color: darkblue;
+    color: white;
+}
+.end{
+    height: 50px;
+    text-align: center;
+}
